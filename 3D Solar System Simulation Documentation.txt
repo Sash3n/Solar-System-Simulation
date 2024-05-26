@@ -1,0 +1,49 @@
+3D Solar System Simulation Documentation
+
+Overview:
+This 3D Solar System Simulation provides a visually immersive experience of our solar system, allowing users to explore the positions and movements of celestial bodies. It's implemented using HTML, JavaScript, and the Three.js library.
+To view how the 3D Solar System Simulation, please see the video recorded within the folder.
+
+Features:
+
+Realistic Celestial Bodies: The simulation includes various celestial bodies such as the Sun, planets (Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune), and their respective moons. Each body is textured with high-resolution images for enhanced realism.
+
+Dynamic Movement: The celestial bodies move dynamically, simulating their orbits and rotations around the Sun or their parent planets. The movement is calculated based on time, creating an accurate representation of celestial motions.
+
+Interactive Interface: Users can interact with the simulation through mouse controls. They can zoom in and out using the mouse wheel and click on celestial bodies to focus the camera on them.
+
+How to Interact:
+
+Zooming In/Out:
+
+Use the mouse wheel to zoom in and out of the simulation.
+Scroll up to zoom in and down to zoom out.
+The zoom is clamped to prevent getting too close or going through the scene.
+Focus on Celestial Bodies:
+
+Click on any celestial body (planet or moon) to focus the camera on it.
+The camera will zoom in on the clicked object, providing a closer view.
+Implementation Details:
+
+HTML Structure: The simulation is embedded in an HTML document, which includes a canvas element for rendering the 3D scene.
+JavaScript (3DSolarSystem.js):
+Sets up the scene, camera, and renderer.
+Loads textures for celestial bodies and the star background.
+Creates and positions celestial bodies in the scene.
+Defines the movement and rotation of celestial bodies.
+Implements mouse controls for interaction.
+Calculates the position of planets and moons based on time.
+Handles the animation loop for rendering the scene.
+File Structure:
+
+index.html: Contains the HTML structure for embedding the simulation.
+3DSolarSystem.js: Implements the 3D solar system simulation using Three.js and JavaScript.
+Note: Ensure all image textures (e.g., sun.jpg, mercury.jpg) are available in the same directory as the HTML and JavaScript files for proper rendering.
+
+Compatibility:
+
+The simulation is compatible with modern web browsers that support WebGL, such as Google Chrome, Mozilla Firefox, and Microsoft Edge.
+Conclusion:
+The 3D Solar System Simulation provides an engaging and educational experience for exploring the arrangement and movements of celestial bodies in our solar system. Users can interact with the simulation to gain insights into planetary orbits and relative positions.
+
+Please read the README file for more information speaking about the project.
